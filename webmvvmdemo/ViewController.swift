@@ -1,4 +1,4 @@
-//
+// View
 //  ViewController.swift
 //  webmvvmdemo
 //
@@ -10,9 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var petDesc: UILabel!
+    @IBOutlet weak var petLegs: UILabel!
+    @IBOutlet weak var petName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let viewModel = DogViewModel(name: "lucky")
+        
+        petName.text = viewModel.DogName
+        petLegs.text = viewModel.DogLegs
+        petDesc.text = viewModel.dogNameAndlegs
+        
+        let viewModel2 = DogViewModel(name: "jacky")
+        print("DogName:\(viewModel2.DogName)")
+        print("Doglegs:\(viewModel2.DogLegs)")
+        print("DogDesc:\(viewModel2.dogNameAndlegs)")
+        viewModel2.setLegs(legsNum: 2)
+        print("Doglegs:\(viewModel2.DogLegs)")
+         print("DogDesc:\(viewModel2.dogNameAndlegs)")
     }
 
     override func didReceiveMemoryWarning() {

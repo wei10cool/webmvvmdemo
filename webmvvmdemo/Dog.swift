@@ -1,4 +1,4 @@
-//
+// Model
 //  Dog.swift
 //  webmvvmdemo
 //
@@ -6,4 +6,14 @@
 //  Copyright © 2018 jianwei. All rights reserved.
 //
 
-import Foundation
+//import Foundation
+import UIKit
+
+class Dog {
+    var name: String
+    var legs: Int
+    init(dogname: String) {
+        name = dogname
+        legs = 4
+    }
+}

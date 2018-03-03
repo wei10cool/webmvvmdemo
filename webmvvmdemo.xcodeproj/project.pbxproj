@@ -12,6 +12,8 @@
 		E54C3F3A204A49E300C342C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54C3F38204A49E300C342C6 /* Main.storyboard */; };
 		E54C3F3C204A49E300C342C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54C3F3B204A49E300C342C6 /* Assets.xcassets */; };
 		E54C3F3F204A49E300C342C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54C3F3D204A49E300C342C6 /* LaunchScreen.storyboard */; };
+		E54C3F47204A502A00C342C6 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54C3F46204A502A00C342C6 /* Dog.swift */; };
+		E54C3F49204A504600C342C6 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54C3F48204A504600C342C6 /* DogViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E54C3F3B204A49E300C342C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E54C3F3E204A49E300C342C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E54C3F40204A49E300C342C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54C3F46204A502A00C342C6 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		E54C3F48204A504600C342C6 /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E54C3F3B204A49E300C342C6 /* Assets.xcassets */,
 				E54C3F3D204A49E300C342C6 /* LaunchScreen.storyboard */,
 				E54C3F40204A49E300C342C6 /* Info.plist */,
+				E54C3F46204A502A00C342C6 /* Dog.swift */,
+				E54C3F48204A504600C342C6 /* DogViewModel.swift */,
 			);
 			path = webmvvmdemo;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				E54C3F37204A49E300C342C6 /* ViewController.swift in Sources */,
 				E54C3F35204A49E300C342C6 /* AppDelegate.swift in Sources */,
+				E54C3F47204A502A00C342C6 /* Dog.swift in Sources */,
+				E54C3F49204A504600C342C6 /* DogViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
